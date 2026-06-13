@@ -1,0 +1,28 @@
+# User Guide
+
+## Advanced Settings
+
+QuadForge provides an Advanced panel for fine control over field generation and mesh processing.
+
+### Field Solver
+- Eigenvector — Fastest option
+- Knöppel 2013 (Default) — Best quality and stability
+- Curvature-only — Lightweight preview mode
+
+### Parametrization Method
+- MIQ (Default) — Best edge alignment
+- IGM — Grid-based workflows
+- Poisson — Fastest but smoother output
+
+### Extraction Method
+- IsoLine (Default)
+- Motorcycle Graph
+- Dual Contour
+
+### GPU Acceleration
+- Uses GPU if available
+- Falls back to CPU if GPU fails
+
+### Thread Count
+- 0 = auto detect
+- >0 = manual control
