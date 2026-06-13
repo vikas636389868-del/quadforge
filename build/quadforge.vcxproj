@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C35CAD2D-BCE9-34B0-89FA-2D4FA99A7D26}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>quadforge</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">quadforge.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">quadforge</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">quadforge.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">quadforge</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">quadforge.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">quadforge</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">quadforge.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">quadforge</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug";quadforge_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";quadforge_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying quadforge.dll into the Blender addon prebuilt directory</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/Debug/quadforge.dll" "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/engine/prebuilt/win64/quadforge.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/Debug/quadforge.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/Debug/quadforge.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";quadforge_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";quadforge_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying quadforge.dll into the Blender addon prebuilt directory</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/Release/quadforge.dll" "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/engine/prebuilt/win64/quadforge.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/Release/quadforge.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/Release/quadforge.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";quadforge_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";quadforge_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying quadforge.dll into the Blender addon prebuilt directory</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/MinSizeRel/quadforge.dll" "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/engine/prebuilt/win64/quadforge.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/MinSizeRel/quadforge.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/MinSizeRel/quadforge.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";quadforge_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";quadforge_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\include;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\eigen;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\nanoflann;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\third_party\parallel_hashmap;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>Copying quadforge.dll into the Blender addon prebuilt directory</Message>
+      <Command>setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/RelWithDebInfo/quadforge.dll" "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/engine/prebuilt/win64/quadforge.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/RelWithDebInfo/quadforge.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/RelWithDebInfo/quadforge.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge" "-BC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build" --check-stamp-file "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge" "-BC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build" --check-stamp-file "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge" "-BC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build" --check-stamp-file "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge" "-BC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build" --check-stamp-file "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeCXXCompiler.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeRCCompiler.cmake;C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4.3.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\atomic_progress.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\gpu_solver.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\omp_utils.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\simd_math.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\thread_pool.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\api.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\engine.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\cleanup.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\dual_contour.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\edge_flow_refine.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\isolines.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\motorcycle.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\patch_layout.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\quad_mesh.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\seam_utils.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\connection.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\constraints.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\cross_field.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\curvature.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\field_debug.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\singularity.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\smoothing.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\features.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\geodesic.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\halfedge.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\mesh_io.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\mesh_selection.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\mesh_stats.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\repair.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\sizing_field.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\spatial.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\symmetry.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\topology.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\cholmod_solver.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\combing.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\igm.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\metric.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\miq.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\poisson.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\seams.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\material_transfer.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\metrics.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\normals.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\project.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\smooth.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\snap.cpp" />
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\subdiv.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\ZERO_CHECK.vcxproj">
+      <Project>{4FC25DF0-0E29-3D07-AEC0-0BB5115D6BE6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

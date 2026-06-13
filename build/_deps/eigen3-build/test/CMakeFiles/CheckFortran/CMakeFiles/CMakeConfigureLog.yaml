@@ -1,0 +1,1031 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:190 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeFortranCompilerId.F.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-src/cmake/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFortranCompilerId.F.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21"
+        - "\"%JAVA_HOME%\\bin"
+        - "%PATH%\""
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\77yad\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\npm"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd\\git.exe"
+        - "C:\\Users\\77yad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:190 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      Microsoft Visual Studio Version 18.6.2.
+      Copyright (C) Microsoft Corp. All rights reserved.
+      
+      Catastrophic failure (Exception from HRESULT: 0x8000FFFF (E_UNEXPECTED))
+      The operation could not be completed. The parameter is incorrect. 
+      
+      Use:
+      devenv  [solutionfile | projectfile | folder | anyfile.ext]  [switches]
+      
+      The first argument for devenv is usually a solution file, project file or a folder.
+      You can also use any other file as the first argument if you want to have the
+      file open automatically in an editor. When you enter a project file, the IDE
+      looks for an .sln file with the same base name as the project file in the
+      parent directory for the project file. If no such .sln file exists, then the
+      IDE looks for a single .sln file that references the project. If no such single
+      .sln file exists, then the IDE creates an unsaved solution with a default .sln
+      file name that has the same base name as the project file.
+      
+      Command line builds:
+      devenv solutionfile.sln /build [ solutionconfig ] [ /project projectnameorfile [ /projectconfig name ] ]
+      Available command line switches:
+      
+      /Build			Builds the solution or project with the specified solution
+      			configuration. For example "Debug". If multiple platforms
+      			are possible, the configuration name must be enclosed in quotes
+      			and contain platform name. For example: "Debug|Win32".
+      /Clean			Deletes build outputs.
+      /Command		Starts the IDE and executes the command.
+      /Deploy			Builds and then deploys the specified build configuration.
+      /DoNotLoadProjects	Opens the specified solution without loading any projects.
+      /Edit			Opens the specified files in a running instance of this
+      			application. If there are no running instances, it will
+      			start a new instance with a simplified window layout.
+      /LCID			Sets the default language in the IDE for the UI.
+      /Log			Logs IDE activity to the specified file for troubleshooting.
+      /NoVSIP			Disables the VSIP developer's license key for VSIP testing.
+      /Out			Appends the build log to a specified file.
+      /Project		Specifies the project to build, clean, or deploy.
+      			Must be used with /Build, /Rebuild, /Clean, or /Deploy.
+      /ProjectConfig		Overrides the project configuration specified in the solution
+      			configuration. For example "Debug". If multiple platforms are
+      			possible, the configuration name must be enclosed in quotes
+      			and contain platform name. For example: "Debug|Win32".
+      			Must be used with /Project.
+      /Rebuild		Cleans and then builds the solution or project with the
+      			specified configuration.
+      /ResetSettings		Restores the IDE's default settings, optionally resets to
+      			the specified VSSettings file.
+      /ResetSkipPkgs		Clears all SkipLoading tags added to VSPackages.
+      /Run			Compiles and runs the specified solution.
+      /RunExit		Compiles and runs the specified solution then closes the IDE.
+      /SafeMode		Launches the IDE in safe mode loading minimal windows.
+      /Upgrade		Upgrades the project or the solution and all projects in it.
+      			A backup of these files will be created as appropriate. Please
+      			see Help on 'Visual Studio Conversion Wizard' for more
+      			information on the backup process.
+      
+      Product-specific switches:
+      
+      /debugexe	Open the specified executable to be debugged. The remainder of
+      		the command line is passed to this executable as its arguments.
+      /diff		Compares two files.  Takes four parameters:
+      		SourceFile, TargetFile, SourceDisplayName(optional),
+      		TargetDisplayName(optional)
+      /TfsLink	Opens Team Explorer and launches a viewer for the 
+      		provided artifact URI if one is registered.
+      /useenv		Use PATH, INCLUDE, LIBPATH, and LIB environment variables
+      		instead of IDE paths for VC++ builds.
+      
+      To attach the debugger from the command line, use:
+      	VsJITDebugger.exe -p <pid>
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:190 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeFortranCompilerId.F.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-src/cmake/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFortranCompilerId.F.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21"
+        - "\"%JAVA_HOME%\\bin"
+        - "%PATH%\""
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\77yad\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\npm"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd\\git.exe"
+        - "C:\\Users\\77yad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:190 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      Microsoft Visual Studio Version 18.6.2.
+      Copyright (C) Microsoft Corp. All rights reserved.
+      
+      Catastrophic failure (Exception from HRESULT: 0x8000FFFF (E_UNEXPECTED))
+      The operation could not be completed. The parameter is incorrect. 
+      
+      Use:
+      devenv  [solutionfile | projectfile | folder | anyfile.ext]  [switches]
+      
+      The first argument for devenv is usually a solution file, project file or a folder.
+      You can also use any other file as the first argument if you want to have the
+      file open automatically in an editor. When you enter a project file, the IDE
+      looks for an .sln file with the same base name as the project file in the
+      parent directory for the project file. If no such .sln file exists, then the
+      IDE looks for a single .sln file that references the project. If no such single
+      .sln file exists, then the IDE creates an unsaved solution with a default .sln
+      file name that has the same base name as the project file.
+      
+      Command line builds:
+      devenv solutionfile.sln /build [ solutionconfig ] [ /project projectnameorfile [ /projectconfig name ] ]
+      Available command line switches:
+      
+      /Build			Builds the solution or project with the specified solution
+      			configuration. For example "Debug". If multiple platforms
+      			are possible, the configuration name must be enclosed in quotes
+      			and contain platform name. For example: "Debug|Win32".
+      /Clean			Deletes build outputs.
+      /Command		Starts the IDE and executes the command.
+      /Deploy			Builds and then deploys the specified build configuration.
+      /DoNotLoadProjects	Opens the specified solution without loading any projects.
+      /Edit			Opens the specified files in a running instance of this
+      			application. If there are no running instances, it will
+      			start a new instance with a simplified window layout.
+      /LCID			Sets the default language in the IDE for the UI.
+      /Log			Logs IDE activity to the specified file for troubleshooting.
+      /NoVSIP			Disables the VSIP developer's license key for VSIP testing.
+      /Out			Appends the build log to a specified file.
+      /Project		Specifies the project to build, clean, or deploy.
+      			Must be used with /Build, /Rebuild, /Clean, or /Deploy.
+      /ProjectConfig		Overrides the project configuration specified in the solution
+      			configuration. For example "Debug". If multiple platforms are
+      			possible, the configuration name must be enclosed in quotes
+      			and contain platform name. For example: "Debug|Win32".
+      			Must be used with /Project.
+      /Rebuild		Cleans and then builds the solution or project with the
+      			specified configuration.
+      /ResetSettings		Restores the IDE's default settings, optionally resets to
+      			the specified VSSettings file.
+      /ResetSkipPkgs		Clears all SkipLoading tags added to VSPackages.
+      /Run			Compiles and runs the specified solution.
+      /RunExit		Compiles and runs the specified solution then closes the IDE.
+      /SafeMode		Launches the IDE in safe mode loading minimal windows.
+      /Upgrade		Upgrades the project or the solution and all projects in it.
+      			A backup of these files will be created as appropriate. Please
+      			see Help on 'Visual Studio Conversion Wizard' for more
+      			information on the backup process.
+      
+      Product-specific switches:
+      
+      /debugexe	Open the specified executable to be debugged. The remainder of
+      		the command line is passed to this executable as its arguments.
+      /diff		Compares two files.  Takes four parameters:
+      		SourceFile, TargetFile, SourceDisplayName(optional),
+      		TargetDisplayName(optional)
+      /TfsLink	Opens Team Explorer and launches a viewer for the 
+      		provided artifact URI if one is registered.
+      /useenv		Use PATH, INCLUDE, LIBPATH, and LIB environment variables
+      		instead of IDE paths for VC++ builds.
+      
+      To attach the debugger from the command line, use:
+      	VsJITDebugger.exe -p <pid>
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/77yad/AppData/Local/Python/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/"
+      - "C:/Users/77yad/AppData/Roaming/npm/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link"
+      - "C:/Windows/System32/link.com"
+      - "C:/Windows/System32/link.exe"
+      - "C:/Windows/System32/link"
+      - "C:/Windows/link.com"
+      - "C:/Windows/link.exe"
+      - "C:/Windows/link"
+      - "C:/Windows/System32/wbem/link.com"
+      - "C:/Windows/System32/wbem/link.exe"
+      - "C:/Windows/System32/wbem/link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link"
+      - "C:/Windows/System32/OpenSSH/link.com"
+      - "C:/Windows/System32/OpenSSH/link.exe"
+      - "C:/Windows/System32/OpenSSH/link"
+      - "D:/yadavji/flutt/flutter/Git/cmd/link.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/link.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/link"
+      - "C:/Program Files/GitHub CLI/link.com"
+      - "C:/Program Files/GitHub CLI/link.exe"
+      - "C:/Program Files/GitHub CLI/link"
+      - "C:/Program Files/nodejs/link.com"
+      - "C:/Program Files/nodejs/link.exe"
+      - "C:/Program Files/nodejs/link"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/link.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/link"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/link.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/link"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/link.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link"
+      - "C:/Program Files/CMake/bin/link.com"
+      - "C:/Program Files/CMake/bin/link.exe"
+      - "C:/Program Files/CMake/bin/link"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/link.com"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/link.exe"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/link"
+      - "C:/Users/77yad/AppData/Local/Python/bin/link.com"
+      - "C:/Users/77yad/AppData/Local/Python/bin/link.exe"
+      - "C:/Users/77yad/AppData/Local/Python/bin/link"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/link.com"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/link"
+      - "C:/Users/77yad/AppData/Roaming/npm/link.com"
+      - "C:/Users/77yad/AppData/Roaming/npm/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/npm/link"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/link.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/link.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/link"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/link.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/link.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/link"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/link.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/link.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/link"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/link.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/link.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/link"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21"
+        - "\"%JAVA_HOME%\\bin"
+        - "%PATH%\""
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\77yad\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\npm"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd\\git.exe"
+        - "C:\\Users\\77yad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/77yad/AppData/Local/Python/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/"
+      - "C:/Users/77yad/AppData/Roaming/npm/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "D:/yadavji/flutt/flutter/Git/cmd/lld-link.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/lld-link.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/lld-link"
+      - "C:/Program Files/GitHub CLI/lld-link.com"
+      - "C:/Program Files/GitHub CLI/lld-link.exe"
+      - "C:/Program Files/GitHub CLI/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/lld-link.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/lld-link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/lld-link"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/lld-link.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/lld-link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/lld-link"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/lld-link.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/lld-link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/77yad/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/77yad/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/77yad/AppData/Local/Python/bin/lld-link"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/lld-link.com"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/lld-link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/lld-link"
+      - "C:/Users/77yad/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/77yad/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/77yad/AppData/Roaming/npm/lld-link"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/lld-link.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/lld-link.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/lld-link"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/lld-link.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/lld-link.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/lld-link"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/lld-link.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/lld-link.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/lld-link"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21"
+        - "\"%JAVA_HOME%\\bin"
+        - "%PATH%\""
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\77yad\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\npm"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd\\git.exe"
+        - "C:\\Users\\77yad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/77yad/AppData/Local/Python/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/"
+      - "C:/Users/77yad/AppData/Roaming/npm/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link"
+      - "C:/Windows/System32/link.com"
+      - "C:/Windows/System32/link.exe"
+      - "C:/Windows/System32/link"
+      - "C:/Windows/link.com"
+      - "C:/Windows/link.exe"
+      - "C:/Windows/link"
+      - "C:/Windows/System32/wbem/link.com"
+      - "C:/Windows/System32/wbem/link.exe"
+      - "C:/Windows/System32/wbem/link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link"
+      - "C:/Windows/System32/OpenSSH/link.com"
+      - "C:/Windows/System32/OpenSSH/link.exe"
+      - "C:/Windows/System32/OpenSSH/link"
+      - "D:/yadavji/flutt/flutter/Git/cmd/link.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/link.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/link"
+      - "C:/Program Files/GitHub CLI/link.com"
+      - "C:/Program Files/GitHub CLI/link.exe"
+      - "C:/Program Files/GitHub CLI/link"
+      - "C:/Program Files/nodejs/link.com"
+      - "C:/Program Files/nodejs/link.exe"
+      - "C:/Program Files/nodejs/link"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/link.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/link"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/link.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/link"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/link.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link"
+      - "C:/Program Files/CMake/bin/link.com"
+      - "C:/Program Files/CMake/bin/link.exe"
+      - "C:/Program Files/CMake/bin/link"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/link.com"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/link.exe"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/link"
+      - "C:/Users/77yad/AppData/Local/Python/bin/link.com"
+      - "C:/Users/77yad/AppData/Local/Python/bin/link.exe"
+      - "C:/Users/77yad/AppData/Local/Python/bin/link"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/link.com"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/link"
+      - "C:/Users/77yad/AppData/Roaming/npm/link.com"
+      - "C:/Users/77yad/AppData/Roaming/npm/link.exe"
+      - "C:/Users/77yad/AppData/Roaming/npm/link"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/link.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/link.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/link"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/link.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/link.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/link"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/link.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/link.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/link"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/link.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/link.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/link"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21"
+        - "\"%JAVA_HOME%\\bin"
+        - "%PATH%\""
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\77yad\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\npm"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd\\git.exe"
+        - "C:\\Users\\77yad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/77yad/AppData/Local/Python/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/"
+      - "C:/Users/77yad/AppData/Roaming/npm/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "D:/yadavji/flutt/flutter/Git/cmd/mt.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/mt.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/mt"
+      - "C:/Program Files/GitHub CLI/mt.com"
+      - "C:/Program Files/GitHub CLI/mt.exe"
+      - "C:/Program Files/GitHub CLI/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/mt.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/mt.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/mt"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/mt.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/mt.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/mt"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/mt.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/mt.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/77yad/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/77yad/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/77yad/AppData/Local/Python/bin/mt"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/mt.com"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/mt.exe"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/mt"
+      - "C:/Users/77yad/AppData/Roaming/npm/mt.com"
+      - "C:/Users/77yad/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/77yad/AppData/Roaming/npm/mt"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/mt.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/mt.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/mt"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/mt.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/mt.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/mt"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/mt.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/mt.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/mt"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/mt.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/mt.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/mt"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21"
+        - "\"%JAVA_HOME%\\bin"
+        - "%PATH%\""
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\77yad\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\npm"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd\\git.exe"
+        - "C:\\Users\\77yad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineFortranCompiler.cmake:313 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/77yad/AppData/Local/Python/bin/"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/"
+      - "C:/Users/77yad/AppData/Roaming/npm/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib"
+      - "C:/Windows/System32/lib.com"
+      - "C:/Windows/System32/lib.exe"
+      - "C:/Windows/System32/lib"
+      - "C:/Windows/lib.com"
+      - "C:/Windows/lib.exe"
+      - "C:/Windows/lib"
+      - "C:/Windows/System32/wbem/lib.com"
+      - "C:/Windows/System32/wbem/lib.exe"
+      - "C:/Windows/System32/wbem/lib"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib"
+      - "C:/Windows/System32/OpenSSH/lib.com"
+      - "C:/Windows/System32/OpenSSH/lib.exe"
+      - "C:/Windows/System32/OpenSSH/lib"
+      - "D:/yadavji/flutt/flutter/Git/cmd/lib.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/lib.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/lib"
+      - "C:/Program Files/GitHub CLI/lib.com"
+      - "C:/Program Files/GitHub CLI/lib.exe"
+      - "C:/Program Files/GitHub CLI/lib"
+      - "C:/Program Files/nodejs/lib.com"
+      - "C:/Program Files/nodejs/lib.exe"
+      - "C:/Program Files/nodejs/lib"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/lib.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/lib.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/set JAVA_HOME=C:/Program Files/Eclipse Adoptium/jdk-21/lib"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/lib.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/lib.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/\"%JAVA_HOME%/bin/lib"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/lib.com"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/lib.exe"
+      - "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-build/test/CMakeFiles/CheckFortran/%PATH%\"/lib"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib"
+      - "C:/Program Files/CMake/bin/lib.com"
+      - "C:/Program Files/CMake/bin/lib.exe"
+      - "C:/Program Files/CMake/bin/lib"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/lib.com"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/lib.exe"
+      - "C:/Users/77yad/AppData/Local/Microsoft/WindowsApps/lib"
+      - "C:/Users/77yad/AppData/Local/Python/bin/lib.com"
+      - "C:/Users/77yad/AppData/Local/Python/bin/lib.exe"
+      - "C:/Users/77yad/AppData/Local/Python/bin/lib"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/lib.com"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/lib.exe"
+      - "C:/Users/77yad/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Visual Studio Code/lib"
+      - "C:/Users/77yad/AppData/Roaming/npm/lib.com"
+      - "C:/Users/77yad/AppData/Roaming/npm/lib.exe"
+      - "C:/Users/77yad/AppData/Roaming/npm/lib"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/lib.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/lib.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/lib"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/lib.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/lib.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/tools/bin/lib"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/lib.com"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/lib.exe"
+      - "C:/Users/77yad/AppData/Local/Android/Sdk/platform-tools/lib"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/lib.com"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/lib.exe"
+      - "D:/yadavji/flutt/flutter/Git/cmd/git.exe/lib"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/lib.com"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/lib.exe"
+      - "C:/Users/77yad/AppData/Local/Programs/Microsoft VS Code/bin/lib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "set JAVA_HOME=C:\\Program Files\\Eclipse Adoptium\\jdk-21"
+        - "\"%JAVA_HOME%\\bin"
+        - "%PATH%\""
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\77yad\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\npm"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\tools\\bin"
+        - "C:\\Users\\77yad\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "D:\\yadavji\\flutt\\flutter\\Git\\cmd\\git.exe"
+        - "C:\\Users\\77yad\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\77yad\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Visual Studio Code"
+...

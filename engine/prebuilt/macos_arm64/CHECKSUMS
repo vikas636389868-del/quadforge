@@ -1,0 +1,10 @@
+# QuadForge macos_arm64 binary checksums
+# Verify with: shasum -a 256 -c CHECKSUMS
+#
+# NOTE: libquadforge.dylib must be compiled on macOS ARM64 before this file
+# can be populated.  Run:
+#   bash QuadForge/engine/prebuilt/macos_arm64/build.sh
+# The build script writes the SHA-256 of the compiled dylib here automatically.
+#
+# (No entry is present because the binary has not yet been compiled.
+#  See MISSING_BINARY.md for full instructions.)

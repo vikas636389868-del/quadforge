@@ -1,0 +1,67 @@
+name: Build Native Libraries
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: |
+          mkdir -p build_ci && cd build_ci
+          cmake .. -DCMAKE_BUILD_TYPE=Release
+          cmake --build . --config Release --target quadforge --parallel $(nproc)
+          mkdir -p ../QuadForge/engine/prebuilt/linux64/
+          cp libquadforge.so ../QuadForge/engine/prebuilt/linux64/
+          # Generate Checksum
+          cd ../QuadForge/engine/prebuilt/linux64/
+          sha256sum libquadforge.so > CHECKSUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux64
+          path: QuadForge/engine/prebuilt/linux64/
+
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: |
+          mkdir build_ci && cd build_ci
+          cmake .. -G "Visual Studio 17 2022" -A x64
+          cmake --build . --config Release --target quadforge --parallel 4
+          if (!(Test-Path "..\QuadForge\engine\prebuilt\win64")) { New-Item -ItemType Directory -Path "..\QuadForge\engine\prebuilt\win64" }
+          Copy-Item -Path "Release\quadforge.dll" -Destination "..\QuadForge\engine\prebuilt\win64\"
+          # Generate Checksum
+          cd ..\QuadForge\engine\prebuilt\win64\
+          (Get-FileHash quadforge.dll -Algorithm SHA256).Hash + "  quadforge.dll" | Out-File CHECKSUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: win64
+          path: QuadForge/engine/prebuilt/win64/
+
+  build-macos-arm64:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: |
+          mkdir -p build_ci && cd build_ci
+          cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_ARCHITECTURES=arm64
+          cmake --build . --config Release --target quadforge --parallel 4
+          mkdir -p ../QuadForge/engine/prebuilt/macos_arm64/
+          cp libquadforge.dylib ../QuadForge/engine/prebuilt/macos_arm64/
+          # Generate Checksum
+          cd ../QuadForge/engine/prebuilt/macos_arm64/
+          shasum -a 256 libquadforge.dylib > CHECKSUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: macos_arm64
+          path: QuadForge/engine/prebuilt/macos_arm64/
+
+  # Note: Agar aap macos_x64 (Intel) bhi support karna chahte hain, 
+  # toh ek aur job yahan add kar sakte hain.

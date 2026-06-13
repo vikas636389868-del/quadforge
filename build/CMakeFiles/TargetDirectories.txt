@@ -1,0 +1,4 @@
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/CMakeFiles/quadforge.dir
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/CMakeFiles/INSTALL.dir
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/CMakeFiles/ZERO_CHECK.dir

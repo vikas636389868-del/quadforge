@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/nanoflann-populate"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/08405fe4ed7d7423a60cbbfa4fcdee90/nanoflann-populate.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/916f2a2000f3dd8020e50731a78b6807/nanoflann-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nanoflann-populate"
+		],
+		"name" : "nanoflann-populate"
+	}
+}

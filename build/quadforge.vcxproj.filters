@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\atomic_progress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\gpu_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\omp_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\simd_math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\accel\thread_pool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\cleanup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\dual_contour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\edge_flow_refine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\isolines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\motorcycle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\patch_layout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\quad_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\extract\seam_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\constraints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\cross_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\curvature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\field_debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\singularity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\field\smoothing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\features.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\geodesic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\halfedge.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\mesh_io.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\mesh_selection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\mesh_stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\repair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\sizing_field.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\spatial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\symmetry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\mesh\topology.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\cholmod_solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\combing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\igm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\metric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\miq.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\poisson.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\param\seams.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\material_transfer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\metrics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\normals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\project.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\smooth.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\snap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\engine\src\postprocess\subdiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{24317577-D7EA-3C61-935E-4B1868B43F2B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

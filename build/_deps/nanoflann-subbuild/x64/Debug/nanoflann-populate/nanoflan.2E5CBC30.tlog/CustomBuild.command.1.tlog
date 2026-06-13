@@ -1,0 +1,150 @@
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\322908637F71025745FE7CFED36FE5B5\NANOFLANN-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/tmp/nanoflann-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/src/nanoflann-populate-stamp/Debug/nanoflann-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\322908637F71025745FE7CFED36FE5B5\NANOFLANN-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/tmp/nanoflann-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/src/nanoflann-populate-stamp/Debug/nanoflann-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\322908637F71025745FE7CFED36FE5B5\NANOFLANN-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/tmp/nanoflann-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\322908637F71025745FE7CFED36FE5B5\NANOFLANN-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/src/nanoflann-populate-stamp/Debug/nanoflann-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\322908637F71025745FE7CFED36FE5B5\NANOFLANN-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/src/nanoflann-populate-stamp/Debug/nanoflann-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\322908637F71025745FE7CFED36FE5B5\NANOFLANN-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/src/nanoflann-populate-stamp/Debug/nanoflann-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\322908637F71025745FE7CFED36FE5B5\NANOFLANN-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/src/nanoflann-populate-stamp/Debug/nanoflann-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\322908637F71025745FE7CFED36FE5B5\NANOFLANN-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/src/nanoflann-populate-stamp/Debug/nanoflann-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\916F2A2000F3DD8020E50731A78B6807\NANOFLANN-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/Debug/nanoflann-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/nanoflann-populate-prefix/src/nanoflann-populate-stamp/Debug/nanoflann-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKEFILES\08405FE4ED7D7423A60CBBFA4FCDEE90\NANOFLANN-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\NANOFLANN-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild" "-BC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild" --check-stamp-file "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

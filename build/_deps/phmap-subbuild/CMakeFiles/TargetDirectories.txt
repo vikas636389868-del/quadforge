@@ -1,0 +1,3 @@
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/phmap-populate.dir
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/ZERO_CHECK.dir

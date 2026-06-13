@@ -1,0 +1,9 @@
+# QuadForge macos_x64 binary checksums
+# Verify with: shasum -a 256 -c CHECKSUMS
+#
+# libquadforge.dylib is not included in this source distribution.
+# Run build.sh on a macOS x86_64 machine to compile it, then the
+# build script will overwrite this file with the actual SHA-256.
+#
+# Source file checksums (for build verification):
+17407a449884c27ba7930531dcd760386da005756d0127483d3a591c85e15a1f  libquadforge_macos_x64.c  # source

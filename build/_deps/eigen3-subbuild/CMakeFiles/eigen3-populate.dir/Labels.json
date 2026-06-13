@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/eigen3-populate"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/17a5f9f4293d7c7c55dba300ba193375/eigen3-populate.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/8653e7f87808b1f1543577dd61c06a6d/eigen3-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/5e02198f6da7e50f2bc36049053b00d9/eigen3-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/5e02198f6da7e50f2bc36049053b00d9/eigen3-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/5e02198f6da7e50f2bc36049053b00d9/eigen3-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/5e02198f6da7e50f2bc36049053b00d9/eigen3-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/5e02198f6da7e50f2bc36049053b00d9/eigen3-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/5e02198f6da7e50f2bc36049053b00d9/eigen3-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/5e02198f6da7e50f2bc36049053b00d9/eigen3-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/5e02198f6da7e50f2bc36049053b00d9/eigen3-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"eigen3-populate"
+		],
+		"name" : "eigen3-populate"
+	}
+}

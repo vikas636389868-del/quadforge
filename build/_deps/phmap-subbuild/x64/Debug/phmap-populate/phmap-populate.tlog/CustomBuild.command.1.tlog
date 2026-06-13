@@ -1,0 +1,150 @@
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\87967DEA30F66296452E7689DC3381BA\PHMAP-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/tmp/phmap-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/src/phmap-populate-stamp/Debug/phmap-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\87967DEA30F66296452E7689DC3381BA\PHMAP-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/tmp/phmap-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/src/phmap-populate-stamp/Debug/phmap-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\87967DEA30F66296452E7689DC3381BA\PHMAP-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\phmap-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/tmp/phmap-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\87967DEA30F66296452E7689DC3381BA\PHMAP-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/src/phmap-populate-stamp/Debug/phmap-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\87967DEA30F66296452E7689DC3381BA\PHMAP-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\phmap-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/src/phmap-populate-stamp/Debug/phmap-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\87967DEA30F66296452E7689DC3381BA\PHMAP-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\phmap-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/src/phmap-populate-stamp/Debug/phmap-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\87967DEA30F66296452E7689DC3381BA\PHMAP-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\phmap-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/src/phmap-populate-stamp/Debug/phmap-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\87967DEA30F66296452E7689DC3381BA\PHMAP-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\phmap-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/src/phmap-populate-stamp/Debug/phmap-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\9569DC162A2E0B550BB25DEFE9B66E5C\PHMAP-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/Debug/phmap-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate-prefix/src/phmap-populate-stamp/Debug/phmap-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\C05C2A1A4997E73242CDC94959F9E9AC\PHMAP-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild" "-BC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild" --check-stamp-file "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

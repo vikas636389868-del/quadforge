@@ -1,0 +1,10 @@
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\17A5F9F4293D7C7C55DBA300BA193375\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild" "-BC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

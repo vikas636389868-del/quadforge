@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\CMakeFiles\4212d56e43ae937a15428dd7dd284661\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FBFDEA8F-0027-379D-A2C0-3F7E6C75A2D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

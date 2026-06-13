@@ -1,0 +1,14 @@
+# QuadForge win64 binary checksums
+# Verify with (PowerShell):  Get-FileHash quadforge.dll -Algorithm SHA256
+# Verify with (cmd):         certutil -hashfile quadforge.dll SHA256
+#
+# This file is updated automatically by build.bat after every successful build.
+# If you downloaded a pre-built DLL from the GitHub Releases page, compare the
+# hash listed here against the hash printed by the command above to confirm
+# the file has not been corrupted or tampered with.
+#
+# FORMAT:  <sha256hex>  <filename>
+# (Two-space separator, matching the sha256sum / certutil convention.)
+#
+# NOTE: Placeholder — replace after first build or CI download.
+0000000000000000000000000000000000000000000000000000000000000000  quadforge.dll

@@ -1,0 +1,10 @@
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\PHMAP-SUBBUILD\CMAKEFILES\C05C2A1A4997E73242CDC94959F9E9AC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild" "-BC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/phmap-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

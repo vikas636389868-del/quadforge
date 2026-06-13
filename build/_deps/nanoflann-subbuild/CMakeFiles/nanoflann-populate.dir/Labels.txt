@@ -1,0 +1,14 @@
+# Target labels
+ nanoflann-populate
+# Source files and their labels
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/nanoflann-populate
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/08405fe4ed7d7423a60cbbfa4fcdee90/nanoflann-populate.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/916f2a2000f3dd8020e50731a78b6807/nanoflann-populate-complete.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-build.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-configure.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-download.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-install.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-mkdir.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-patch.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-test.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/nanoflann-subbuild/CMakeFiles/322908637f71025745fe7cfed36fe5b5/nanoflann-populate-update.rule

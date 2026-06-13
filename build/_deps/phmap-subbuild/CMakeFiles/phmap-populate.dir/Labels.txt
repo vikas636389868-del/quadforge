@@ -1,0 +1,14 @@
+# Target labels
+ phmap-populate
+# Source files and their labels
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/phmap-populate
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/c05c2a1a4997e73242cdc94959f9e9ac/phmap-populate.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/9569dc162a2e0b550bb25defe9b66e5c/phmap-populate-complete.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/87967dea30f66296452e7689dc3381ba/phmap-populate-build.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/87967dea30f66296452e7689dc3381ba/phmap-populate-configure.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/87967dea30f66296452e7689dc3381ba/phmap-populate-download.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/87967dea30f66296452e7689dc3381ba/phmap-populate-install.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/87967dea30f66296452e7689dc3381ba/phmap-populate-mkdir.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/87967dea30f66296452e7689dc3381ba/phmap-populate-patch.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/87967dea30f66296452e7689dc3381ba/phmap-populate-test.rule
+C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/phmap-subbuild/CMakeFiles/87967dea30f66296452e7689dc3381ba/phmap-populate-update.rule

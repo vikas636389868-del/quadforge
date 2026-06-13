@@ -1,0 +1,37 @@
+schema_version = "1.0.0"
+
+# Addon identity ─────────────────────────────────────────────────────────────
+id            = "quadforge"
+name          = "QuadForge"
+version       = "84.0.0"
+tagline       = "Next-generation auto quad remeshing — faster than QuadRemesher"
+maintainer    = "Reynold"
+type          = "add-on"
+
+# Blender version compatibility ───────────────────────────────────────────────
+blender_version_min = "4.2.0"
+# blender_version_max = "5.99.0"   # uncomment to cap if needed
+
+# License ─────────────────────────────────────────────────────────────────────
+# GPL-3.0-or-later covers the Python add-on layer.
+# The C++ engine library is MIT — both are declared here for clarity.
+license = ["SPDX:GPL-3.0-or-later"]
+
+# Website / docs ──────────────────────────────────────────────────────────────
+website = "https://github.com/reynold/quadforge"
+
+# Tags shown in the Extensions browser ───────────────────────────────────────
+tags = ["Mesh", "Remesh", "Retopology", "Import-Export"]
+
+# Python version requirement (Blender 4.2 ships Python 3.11) ─────────────────
+# No extra pip packages needed — all dependencies ship with Blender.
+
+# Permissions ─────────────────────────────────────────────────────────────────
+# QuadForge reads/writes mesh data only — no network, no file system beyond
+# the add-on's own prebuilt/ directory (to load libquadforge.so etc.).
+[permissions]
+# files = "Reads prebuilt native library from add-on directory"   # optional note
+
+# Wheels (Python packages to bundle) ─────────────────────────────────────────
+# numpy ships with Blender; scipy is optional and not bundled.
+# wheels = []

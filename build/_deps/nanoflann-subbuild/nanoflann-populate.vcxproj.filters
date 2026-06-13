@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\322908637f71025745fe7cfed36fe5b5\nanoflann-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\322908637f71025745fe7cfed36fe5b5\nanoflann-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\322908637f71025745fe7cfed36fe5b5\nanoflann-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\322908637f71025745fe7cfed36fe5b5\nanoflann-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\322908637f71025745fe7cfed36fe5b5\nanoflann-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\322908637f71025745fe7cfed36fe5b5\nanoflann-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\322908637f71025745fe7cfed36fe5b5\nanoflann-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\322908637f71025745fe7cfed36fe5b5\nanoflann-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\916f2a2000f3dd8020e50731a78b6807\nanoflann-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\08405fe4ed7d7423a60cbbfa4fcdee90\nanoflann-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\nanoflann-subbuild\CMakeFiles\nanoflann-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A208CE8C-58E9-316A-9375-4A8D4966DF7B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

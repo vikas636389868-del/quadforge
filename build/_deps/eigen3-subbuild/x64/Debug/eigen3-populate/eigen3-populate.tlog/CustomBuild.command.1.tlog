@@ -1,0 +1,150 @@
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\5E02198F6DA7E50F2BC36049053B00D9\EIGEN3-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/tmp/eigen3-populate-mkdirs.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/src/eigen3-populate-stamp/Debug/eigen3-populate-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\5E02198F6DA7E50F2BC36049053B00D9\EIGEN3-POPULATE-DOWNLOAD.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/tmp/eigen3-populate-gitclone.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/src/eigen3-populate-stamp/Debug/eigen3-populate-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\5E02198F6DA7E50F2BC36049053B00D9\EIGEN3-POPULATE-UPDATE.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\eigen3-src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/tmp/eigen3-populate-gitupdate.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\5E02198F6DA7E50F2BC36049053B00D9\EIGEN3-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/src/eigen3-populate-stamp/Debug/eigen3-populate-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\5E02198F6DA7E50F2BC36049053B00D9\EIGEN3-POPULATE-CONFIGURE.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\eigen3-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/src/eigen3-populate-stamp/Debug/eigen3-populate-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\5E02198F6DA7E50F2BC36049053B00D9\EIGEN3-POPULATE-BUILD.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\eigen3-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/src/eigen3-populate-stamp/Debug/eigen3-populate-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\5E02198F6DA7E50F2BC36049053B00D9\EIGEN3-POPULATE-INSTALL.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\eigen3-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/src/eigen3-populate-stamp/Debug/eigen3-populate-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\5E02198F6DA7E50F2BC36049053B00D9\EIGEN3-POPULATE-TEST.RULE
+setlocal
+cd "C:\Users\77yad\AppData\Roaming\Blender Foundation\Blender\4.2\extensions\user_default\quadforge\build\_deps\eigen3-build"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/src/eigen3-populate-stamp/Debug/eigen3-populate-test"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\8653E7F87808B1F1543577DD61C06A6D\EIGEN3-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/Debug/eigen3-populate-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/eigen3-populate-prefix/src/eigen3-populate-stamp/Debug/eigen3-populate-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKEFILES\17A5F9F4293D7C7C55DBA300BA193375\EIGEN3-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\77YAD\APPDATA\ROAMING\BLENDER FOUNDATION\BLENDER\4.2\EXTENSIONS\USER_DEFAULT\QUADFORGE\BUILD\_DEPS\EIGEN3-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild" "-BC:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild" --check-stamp-file "C:/Users/77yad/AppData/Roaming/Blender Foundation/Blender/4.2/extensions/user_default/quadforge/build/_deps/eigen3-subbuild/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

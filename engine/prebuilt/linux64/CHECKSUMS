@@ -1,0 +1,7 @@
+# QuadForge linux64 binary checksums
+# Verify with: sha256sum -c CHECKSUMS
+# Rebuilt from libquadforge_linux64.c with 3 bug fixes applied:
+#   - Bug #1: edge_map_add assert -> bounds check (crash fix for non-manifold meshes)
+#   - Bug #2: O(n^2) symmetry loop -> O(n) VHash spatial hash
+#   - Bug #3: removed leftover assert.h include
+ff7adc0bc2478460374dc918ad002dda95bb24ceae1881ed381351428a6b00b7  libquadforge.so
