@@ -140,56 +140,77 @@ def _reload_submodules():
             importlib.reload(sys.modules[name])
 
 
+def _has_blender_runtime() -> bool:
+    try:
+        import bpy  # noqa: F401
+    except Exception:
+        return False
+    return True
+
+
+HAS_BLENDER_RUNTIME = _has_blender_runtime()
+
+
 if "QuadForge.bridge" in sys.modules:
     _reload_submodules()
 
-from . import (  # noqa: E402
-    bridge,
-    presets,
-    callbacks,
-    properties,
-    preferences,
-    operators,
-    panels,
-    utils,
-)
-from .engine import (  # noqa: E402, F401
-    halfedge,
-    topology,
-    spatial,
-    sizing,
-    curvature,
-    features,
-    constraints,
-    smoothing,
-    field,
-    field_smoothing,
-    sparse_solver,
-    combing,
-    parametrize,
-    extraction,
-    quad_merger,
-    feature_protection,
-    motorcycle,
-    singularity,
-    symmetry,
-    exact_count,
-    output_enhance,
-    projection,
-    snapping,
-    transfer,
-    metrics,
-    subdiv,
-    selection_remesh,
-    neural_singularity,
-    multiresolution,
-    live_preview,
-    gpu_solver,
-    pipeline,
-)
+if HAS_BLENDER_RUNTIME:
+    try:
+        from . import (  # noqa: E402
+            bridge,
+            presets,
+            callbacks,
+            properties,
+            preferences,
+            operators,
+            panels,
+            utils,
+        )
+        from .engine import (  # noqa: E402, F401
+            halfedge,
+            topology,
+            spatial,
+            sizing,
+            curvature,
+            features,
+            constraints,
+            smoothing,
+            field,
+            field_smoothing,
+            sparse_solver,
+            combing,
+            parametrize,
+            extraction,
+            quad_merger,
+            feature_protection,
+            motorcycle,
+            singularity,
+            symmetry,
+            exact_count,
+            output_enhance,
+            projection,
+            snapping,
+            transfer,
+            metrics,
+            subdiv,
+            selection_remesh,
+            neural_singularity,
+            multiresolution,
+            live_preview,
+            gpu_solver,
+            pipeline,
+        )
+    except Exception:
+        bridge = presets = callbacks = properties = preferences = operators = panels = utils = None
+        halfedge = topology = spatial = sizing = curvature = features = constraints = smoothing = field = field_smoothing = sparse_solver = combing = parametrize = extraction = quad_merger = feature_protection = motorcycle = singularity = symmetry = exact_count = output_enhance = projection = snapping = transfer = metrics = subdiv = selection_remesh = neural_singularity = multiresolution = live_preview = gpu_solver = pipeline = None
+else:
+    bridge = presets = callbacks = properties = preferences = operators = panels = utils = None
+    halfedge = topology = spatial = sizing = curvature = features = constraints = smoothing = field = field_smoothing = sparse_solver = combing = parametrize = extraction = quad_merger = feature_protection = motorcycle = singularity = symmetry = exact_count = output_enhance = projection = snapping = transfer = metrics = subdiv = selection_remesh = neural_singularity = multiresolution = live_preview = gpu_solver = pipeline = None
 
 
 def register():
+    if not HAS_BLENDER_RUNTIME:
+        return
     _load_icons()
     preferences.register()
     properties.register()
@@ -203,6 +224,8 @@ def register():
 
 
 def unregister():
+    if not HAS_BLENDER_RUNTIME:
+        return
     panels.unregister()
     operators.unregister()
     properties.unregister()
