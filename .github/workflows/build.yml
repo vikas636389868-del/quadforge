@@ -61,10 +61,10 @@ build-windows:
               Write-Host "Build failed! Checking directory contents..."
               Get-ChildItem -Recurse
               exit 1
-          }
-  build-macos-arm64:
-    runs-on: macos-14
-    steps:
+           }
+    build-macos-arm64:
+     runs-on: macos-14
+     steps:
       - uses: actions/checkout@v4
       - name: Build
         run: |
