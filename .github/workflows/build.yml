@@ -30,29 +30,39 @@ build-windows:
     steps:
       - uses: actions/checkout@v4
       
-      # 1. Setup MSVC environment
+      # Visual Studio environment set up karein
       - uses: ilammy/msvc-dev-cmd@v1
 
       - name: Build
         shell: powershell
         run: |
+          # 1. Purana build folder delete karein (Saaf shuruat ke liye)
+          if (Test-Path "build_ci") { Remove-Item -Recurse -Force "build_ci" }
           mkdir build_ci
           cd build_ci
           
-          # 2. Generator (-G) hatayein, cmake ko auto-detect karne dein
+          # 2. CMake configure (Generator hatadiya taaki system khud choose kare)
           cmake .. -A x64
           
-          # 3. Build command
+          # 3. Build karein
           cmake --build . --config Release --parallel 4
           
           # 4. Copy logic
+          $source = ".\Release\quadforge.dll"
           $dest = "..\QuadForge\engine\prebuilt\win64"
-          if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest }
-          Copy-Item -Path "Release\quadforge.dll" -Destination "$dest\"
-          
-          # 5. Checksum
-          cd $dest
-          (Get-FileHash quadforge.dll -Algorithm SHA256).Hash + "  quadforge.dll" | Out-File CHECKSUMS
+          if (Test-Path $source) {
+              if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest }
+              Copy-Item -Path $source -Destination "$dest\"
+              
+              # Checksum
+              cd $dest
+              (Get-FileHash quadforge.dll -Algorithm SHA256).Hash + "  quadforge.dll" | Out-File CHECKSUMS
+          } else {
+              # Debug ke liye file list print karein
+              Write-Host "File nahi mili! Directory contents:"
+              Get-ChildItem -Recurse
+              exit 1
+          }
   build-macos-arm64:
     runs-on: macos-14
     steps:
