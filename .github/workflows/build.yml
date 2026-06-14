@@ -30,7 +30,7 @@ build-windows:
     steps:
       - uses: actions/checkout@v4
       
-      # Yeh step Visual Studio ke compiler aur tools ko active karega
+      # 1. Setup MSVC environment
       - uses: ilammy/msvc-dev-cmd@v1
 
       - name: Build
@@ -38,23 +38,21 @@ build-windows:
         run: |
           mkdir build_ci
           cd build_ci
-          cmake .. -G "Visual Studio 17 2022" -A x64
-          cmake --build . --config Release --target quadforge --parallel 4
           
-          # Folder check aur copy process
+          # 2. Generator (-G) hatayein, cmake ko auto-detect karne dein
+          cmake .. -A x64
+          
+          # 3. Build command
+          cmake --build . --config Release --parallel 4
+          
+          # 4. Copy logic
           $dest = "..\QuadForge\engine\prebuilt\win64"
           if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest }
           Copy-Item -Path "Release\quadforge.dll" -Destination "$dest\"
           
-          # Checksum generation
+          # 5. Checksum
           cd $dest
           (Get-FileHash quadforge.dll -Algorithm SHA256).Hash + "  quadforge.dll" | Out-File CHECKSUMS
-
-      - uses: actions/upload-artifact@v4
-        with:
-          name: win64
-          path: QuadForge/engine/prebuilt/win64/
-
   build-macos-arm64:
     runs-on: macos-14
     steps:
