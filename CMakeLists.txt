@@ -38,6 +38,7 @@ option(QF_NATIVE_MARCH    "Build with -march=native"               OFF)
 # Third-party dependencies
 # -----------------------------------------------------------------------
 set(QF_THIRD_PARTY_DIR "${CMAKE_CURRENT_SOURCE_DIR}/engine/third_party")
+#set(EIGEN3_INCLUDE_DIR "${QF_THIRD_PARTY_DIR}/eigen")
 set(EIGEN3_INCLUDE_DIR "${QF_THIRD_PARTY_DIR}/eigen")
 set(NANOFLANN_INCLUDE_DIR "${QF_THIRD_PARTY_DIR}/nanoflann")
 set(PHMAP_INCLUDE_DIR "${QF_THIRD_PARTY_DIR}/parallel_hashmap")
