@@ -37,14 +37,18 @@ option(QF_NATIVE_MARCH    "Build with -march=native"               OFF)
 # -----------------------------------------------------------------------
 # Third-party dependencies
 # -----------------------------------------------------------------------
+# 1. Sabse pehle paths set karein
 set(QF_THIRD_PARTY_DIR "${CMAKE_CURRENT_SOURCE_DIR}/engine/third_party")
-#set(EIGEN3_INCLUDE_DIR "${QF_THIRD_PARTY_DIR}/eigen")
-target_include_directories(quadforge SYSTEM PRIVATE 
-    "${EIGEN3_INCLUDE_DIR}"  
-)
 set(EIGEN3_INCLUDE_DIR "${QF_THIRD_PARTY_DIR}/eigen")
 set(NANOFLANN_INCLUDE_DIR "${QF_THIRD_PARTY_DIR}/nanoflann")
 set(PHMAP_INCLUDE_DIR "${QF_THIRD_PARTY_DIR}/parallel_hashmap")
+
+# 2. Ab target_include_directories mein in variables ka use karein
+target_include_directories(quadforge SYSTEM PRIVATE 
+    "${EIGEN3_INCLUDE_DIR}" 
+    "${NANOFLANN_INCLUDE_DIR}" 
+    "${PHMAP_INCLUDE_DIR}"
+)
 
 # -----------------------------------------------------------------------
 # OpenMP & SuiteSparse
