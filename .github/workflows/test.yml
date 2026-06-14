@@ -9,23 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install Blender
         run: |
           sudo apt-get update
           sudo apt-get install -y wget tar libgl1
-
-      - name: Download Blender
-        run: |
           wget https://download.blender.org/release/Blender4.2/blender-4.2.0-linux-x64.tar.xz
           tar -xf blender-4.2.0-linux-x64.tar.xz
 
-      - name: Install pytest in Blender Python
-        run: |
-          ./blender-4.2.0-linux-x64/4.2/python/bin/python3.11 -m ensurepip
-          ./blender-4.2.0-linux-x64/4.2/python/bin/python3.11 -m pip install pytest numpy scipy
-
       - name: Run tests inside Blender
-        env:
-          PYTHONPATH: ${{ github.workspace }}
         run: |
-          ./blender-4.2.0-linux-x64/blender --background --python-expr "import pytest; pytest.main(['-v'])"
+          ./blender-4.2.0-linux-x64/blender --background --python -m pytest tests -v
