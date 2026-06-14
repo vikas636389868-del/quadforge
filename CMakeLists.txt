@@ -64,8 +64,13 @@ file(GLOB_RECURSE QF_SOURCES "${ENGINE_SRC_DIR}/*.cpp")
 
 add_library(quadforge SHARED ${QF_SOURCES})
 
-target_include_directories(quadforge PUBLIC "${ENGINE_INC_DIR}" PRIVATE "${EIGEN3_INCLUDE_DIR}" "${NANOFLANN_INCLUDE_DIR}" "${PHMAP_INCLUDE_DIR}")
-
+#target_include_directories(quadforge PUBLIC "${ENGINE_INC_DIR}" PRIVATE "${EIGEN3_INCLUDE_DIR}" "${NANOFLANN_INCLUDE_DIR}" "${PHMAP_INCLUDE_DIR}")
+target_include_directories(quadforge PUBLIC "${ENGINE_INC_DIR}")
+target_include_directories(quadforge SYSTEM PRIVATE 
+    "${EIGEN3_INCLUDE_DIR}" 
+    "${NANOFLANN_INCLUDE_DIR}" 
+    "${PHMAP_INCLUDE_DIR}"
+)
 set_target_properties(quadforge PROPERTIES
   CXX_VISIBILITY_PRESET hidden
   VISIBILITY_INLINES_HIDDEN ON
