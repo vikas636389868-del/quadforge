@@ -30,19 +30,20 @@ build-windows:
     steps:
       - uses: actions/checkout@v4
       
-      # Visual Studio environment set up karein
+      # 1. VS Environment Load
       - uses: ilammy/msvc-dev-cmd@v1
 
       - name: Build
         shell: powershell
         run: |
-          # 1. Purana build folder delete karein (Saaf shuruat ke liye)
+          # 1. Poora folder saaf karein (taaki purana cache na bache)
           if (Test-Path "build_ci") { Remove-Item -Recurse -Force "build_ci" }
           mkdir build_ci
           cd build_ci
           
-          # 2. CMake configure (Generator hatadiya taaki system khud choose kare)
-          cmake .. -A x64
+          # 2. Generator (-G) hatadiya hai - Ye sabse zaruri hai!
+          # CMake ko MSVC environment milte hi wo apne aap VS 2022 select karega.
+          cmake ..
           
           # 3. Build karein
           cmake --build . --config Release --parallel 4
@@ -53,13 +54,11 @@ build-windows:
           if (Test-Path $source) {
               if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest }
               Copy-Item -Path $source -Destination "$dest\"
-              
               # Checksum
               cd $dest
               (Get-FileHash quadforge.dll -Algorithm SHA256).Hash + "  quadforge.dll" | Out-File CHECKSUMS
           } else {
-              # Debug ke liye file list print karein
-              Write-Host "File nahi mili! Directory contents:"
+              Write-Host "Build failed! Checking directory contents..."
               Get-ChildItem -Recurse
               exit 1
           }
