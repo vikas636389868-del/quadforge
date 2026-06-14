@@ -35,7 +35,8 @@ jobs:
           if (Test-Path "build_ci") { Remove-Item -Recurse -Force "build_ci" }
           mkdir build_ci
           cd build_ci
-          cmake .. -G "Visual Studio 17 2022" -T v143 -A x64
+          # Generator (-G) hataya gaya hai taaki CMake default system generator chune
+          cmake .. -A x64
           cmake --build . --config Release --parallel 4
           $dest = "..\QuadForge\engine\prebuilt\win64"
           if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest }
