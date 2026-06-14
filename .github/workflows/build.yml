@@ -30,38 +30,33 @@ build-windows:
     steps:
       - uses: actions/checkout@v4
       
-      # 1. VS Environment Load
+      # 1. VS Environment Setup
       - uses: ilammy/msvc-dev-cmd@v1
 
       - name: Build
         shell: powershell
         run: |
-          # 1. Poora folder saaf karein (taaki purana cache na bache)
+          # 1. Cache saaf karein
           if (Test-Path "build_ci") { Remove-Item -Recurse -Force "build_ci" }
           mkdir build_ci
           cd build_ci
           
-          # 2. Generator (-G) hatadiya hai - Ye sabse zaruri hai!
-          # CMake ko MSVC environment milte hi wo apne aap VS 2022 select karega.
-          cmake ..
+          # 2. CMake Configure
+          # -T v143 VS 2022 toolset ko force karta hai
+          cmake .. -G "Visual Studio 17 2022" -T v143 -A x64
           
-          # 3. Build karein
+          # 3. Build command
           cmake --build . --config Release --parallel 4
           
           # 4. Copy logic
-          $source = ".\Release\quadforge.dll"
           $dest = "..\QuadForge\engine\prebuilt\win64"
-          if (Test-Path $source) {
-              if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest }
-              Copy-Item -Path $source -Destination "$dest\"
-              # Checksum
-              cd $dest
-              (Get-FileHash quadforge.dll -Algorithm SHA256).Hash + "  quadforge.dll" | Out-File CHECKSUMS
-          } else {
-              Write-Host "Build failed! Checking directory contents..."
-              Get-ChildItem -Recurse
-              exit 1
-           }
+          if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest }
+          # CMake 'POST_BUILD' mein bhi copy kar raha hai, par yahan bhi double-check kar rahe hain
+          Copy-Item -Path "Release\quadforge.dll" -Destination "$dest\" -Force
+          
+          # Checksum
+          cd $dest
+          (Get-FileHash quadforge.dll -Algorithm SHA256).Hash + "  quadforge.dll" | Out-File CHECKSUMS
     build-macos-arm64:
      runs-on: macos-14
      steps:
