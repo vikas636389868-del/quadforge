@@ -25,20 +25,31 @@ jobs:
           name: linux64
           path: QuadForge/engine/prebuilt/linux64/
 
-  build-windows:
+build-windows:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+      
+      # Yeh step Visual Studio ke compiler aur tools ko active karega
+      - uses: ilammy/msvc-dev-cmd@v1
+
       - name: Build
+        shell: powershell
         run: |
-          mkdir build_ci && cd build_ci
+          mkdir build_ci
+          cd build_ci
           cmake .. -G "Visual Studio 17 2022" -A x64
           cmake --build . --config Release --target quadforge --parallel 4
-          if (!(Test-Path "..\QuadForge\engine\prebuilt\win64")) { New-Item -ItemType Directory -Path "..\QuadForge\engine\prebuilt\win64" }
-          Copy-Item -Path "Release\quadforge.dll" -Destination "..\QuadForge\engine\prebuilt\win64\"
-          # Generate Checksum
-          cd ..\QuadForge\engine\prebuilt\win64\
+          
+          # Folder check aur copy process
+          $dest = "..\QuadForge\engine\prebuilt\win64"
+          if (!(Test-Path $dest)) { New-Item -ItemType Directory -Path $dest }
+          Copy-Item -Path "Release\quadforge.dll" -Destination "$dest\"
+          
+          # Checksum generation
+          cd $dest
           (Get-FileHash quadforge.dll -Algorithm SHA256).Hash + "  quadforge.dll" | Out-File CHECKSUMS
+
       - uses: actions/upload-artifact@v4
         with:
           name: win64
